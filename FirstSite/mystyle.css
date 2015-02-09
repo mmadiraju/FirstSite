@@ -1,0 +1,76 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+    font-family:monospace;
+    text-decoration: underline;
+    font-weight: 200;
+    font-size: 300%;
+	color: white;
+}
+
+.first {
+	 text-transform: none;
+	 text-align:left;
+	 font-family: serif;
+	 font-size: 100%;
+	 word-wrap: break-word;
+	 font-variant: normal;
+	 color: black;
+	}
+
+h2{
+	text-align: left;
+	text-transform:capitalize;
+	font-family: monospace;
+	font-weight: 100;
+	font-size: 200%;
+	color: white;
+}
+ul{
+	font-size: 50%;
+	font-family: serif;
+	font-variant: normal;
+	color:black;
+}
+
+p {
+	 text-transform: none;
+	 padding-left: 2em;
+	 border-width: 11em
+	 padding-right: 2em;
+     text-indent:1.5em;
+	 font-family: serif;
+	 font-size: 50%;
+	 word-wrap: break-word;
+	 font-variant: normal;
+	 color: black;
+
+}
+a:link{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline
+}
+
+body{
+	background: background.jpg no-repeat;
+  background-size: 100%
+}
